@@ -1,0 +1,60 @@
+GIT
+  remote: https://github.com/intridea/multi_json.git
+  revision: 1ba3be42600696f676d9cc1f029227b84c3c763b
+  specs:
+    multi_json (1.11.2)
+
+GIT
+  remote: https://github.com/rack/rack.git
+  revision: 2f782ce099989e214466872c797f530b5349357d
+  specs:
+    rack (2.0.0.alpha)
+      json
+
+GIT
+  remote: https://github.com/rtomayko/tilt.git
+  revision: 1e388dbaab5bf39ccaada5a495c97c10ab91358c
+  specs:
+    tilt (2.0.1)
+
+GIT
+  remote: https://github.com/thoughtbot/shoulda-matchers.git
+  revision: 369e9d4c36cf4057eccd997bbb006d838b5aac0f
+  specs:
+    shoulda-matchers (3.0.0)
+      activesupport (>= 4.0.0)
+
+GIT
+  remote: https://github.com/vcr/vcr.git
+  revision: 0a369e9da7c4aad2e9307aa0632d30f4b88d0b0b
+  specs:
+    vcr (2.9.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.2.4)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    i18n (0.7.0)
+    json (1.8.3)
+    minitest (5.8.1)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  multi_json!
+  rack!
+  shoulda-matchers!
+  tilt!
+  vcr!
+
+BUNDLED WITH
+   1.10.6
